@@ -1,0 +1,15 @@
+[Unit]
+Description=Bot_ege_check
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/new_bot/bot_ege_check
+ExecStart=/home/new_bot/bot_ege_check/venv/bin/python -m bot
+KillMode=process
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

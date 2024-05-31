@@ -1,0 +1,8 @@
+aiogram~=3.4.1
+SQLAlchemy~=2.0.28
+alembic~=1.13.1
+aiosqlite~=0.20.0
+pydantic~=2.6.3
+pydantic-settings~=2.2.1
+fluent.runtime==0.4.0
+cachetools~=5.3.3
