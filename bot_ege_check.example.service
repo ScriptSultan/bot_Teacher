@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=root
+User=
 WorkingDirectory=/home/new_bot/bot_ege_check
 ExecStart=/home/new_bot/bot_ege_check/venv/bin/python -m bot
 KillMode=process

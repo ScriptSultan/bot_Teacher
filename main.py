@@ -32,7 +32,7 @@ async def main():
     # Add admin filter to admin_router and user_router
     admin_router.message.filter(F.from_user.id.in_(admin_list))
     await update_filters()
-
+    #
     dp.include_router(admin_router)
     dp.include_router(user_router)
     dp.include_router(registered_router)

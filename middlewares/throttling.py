@@ -6,7 +6,7 @@ from cachetools import TTLCache
 
 from config_reader import config
 
-
+#
 class ThrottlingMiddleware(BaseMiddleware):
 
     def __init__(self, time_limit: int = config.throttling):

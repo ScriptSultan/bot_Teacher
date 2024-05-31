@@ -97,6 +97,7 @@ async def get_subj_ref_from_student(user_id):
     async with async_session() as session:
         ref = await session.execute(select(User.subjects, User.teacher_ref).filter_by(user_id=user_id))
         return ref.first()
+#
 
 
 async def update_subj_student(user_id, subj):

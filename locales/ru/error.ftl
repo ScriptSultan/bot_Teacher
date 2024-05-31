@@ -1,4 +1,4 @@
-# Taecher-handler
+## Taecher-handler
 error-not-defined = Номера задания не существует.
 error-format-number = Неверный формат. Отправьте целое число.
 

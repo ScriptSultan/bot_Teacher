@@ -11,7 +11,7 @@ def setting_role(affiliate, l10n: FluentLocalization):
     menu.button(text=l10n.format_value('i-am-teacher'), callback_data='teacher')
     menu.adjust(1, 1)
     return menu.as_markup()
-
+#
 
 # Клавиатуры админа
 def kb_confirm(user_id, fullname, username, l10n: FluentLocalization):

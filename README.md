@@ -17,6 +17,6 @@
 1. Выполните шаги 1-4 из раздела "Протестировать на своем локальном сервере" выше;
 2. Скопируйте `bot_ege_check.example.service` в `bot_ege_check.service`, откройте и отредактируйте переменные `WorkingDirectory`,
  `ExecStart` и `Description`;
-3. Скопируйте (или создайте симлинк) файла службы в каталог `/etc/systemd/system/`;
+3. Cкопируйте (или создайте симлинк) файла службы в каталог `/etc/systemd/system/`;
 4. Активируйте сервис и запустите его: `sudo systemctl enable bot_ege_check`;
 5. Проверьте, что сервис запустился: `systemctcl status bot_ege_check` (можно без root-прав).

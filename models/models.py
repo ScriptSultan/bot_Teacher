@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, Integer, String, BigInteger, ForeignKey, f
 from sqlalchemy.orm import Session, as_declarative, declared_attr, Mapped, mapped_column, sessionmaker, relationship, \
     DeclarativeBase
 
-
+#
 # class Base(DeclarativeBase):
 #     pass
 @as_declarative()

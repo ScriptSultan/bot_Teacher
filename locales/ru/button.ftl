@@ -25,4 +25,5 @@ set-subject = [Выберите предмет]
 set-answer=Ответить
 
 random-task = Случайные задания
-back = Назад
+back = Назад|
+#
